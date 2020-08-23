@@ -1,0 +1,70 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background:whitesmoke;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-template-rows: 20vh 70vh 10vh;
+	grid-template-areas:"h h"
+						"m a"
+						"f f"
+	
+}
+
+header {
+	background: whitesmoke;
+	grid-area:h
+}
+main {
+	background: rgb(240, 165, 240);
+	grid-area:m;
+}
+aside {
+	background: rgb(162, 255, 162);
+	grid-area:a;
+}
+footer {
+	background: pink;
+	grid-area:f;
+}
+.search-box{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: orange;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+.search-btn{
+	color: whitesmoke;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: orange;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+	color: whitesmoke;
+	cursor: pointer;
+}	
+.search-txt{
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: whitesmoke;
+	font-size: 20px;
+	transition: 0.5s;
+	line-height: 40px;
+	width: 240px;
+}

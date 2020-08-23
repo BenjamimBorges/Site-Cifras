@@ -1,0 +1,39 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background:whitesmoke;
+}
+form>input{
+	width: 240px;
+	background: whitesmoke;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-template-rows: 10vh 80vh 10vh;
+	grid-template-areas:"h h"
+						"a m"
+						"f f"
+	
+}
+
+header {
+	background: whitesmoke;
+	grid-area:h
+}
+main {
+	background: rgb(240, 165, 240);
+    grid-area:m;
+    width: 1000px;
+}
+aside {
+	background: rgb(162, 255, 162);
+	grid-area:a;
+}
+footer {
+	background: pink;
+	grid-area:f;
+}
