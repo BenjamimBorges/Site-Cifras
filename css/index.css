@@ -17,19 +17,22 @@ body {
 }
 
 header {
-	background: whitesmoke;
+	background:whitesmoke;
 	grid-area:h
 }
 main {
-	background: rgb(240, 165, 240);
+	background: rgb(40, 103, 89);
 	grid-area:m;
 }
 aside {
-	background: rgb(162, 255, 162);
+	background: rgb(40, 103, 89);
 	grid-area:a;
+	font-family: 'Lora', serif;
+	font-size: 20px;
+	color: black;
 }
 footer {
-	background: pink;
+	background: whitesmoke;
 	grid-area:f;
 }
 .search-box{
@@ -37,8 +40,9 @@ footer {
 	top: 10%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	background: orange;
+	background: rgb(40, 103, 89);
 	height: 40px;
+	width: 400px;
 	border-radius: 40px;
 	padding: 10px;
 }
@@ -48,7 +52,7 @@ footer {
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	background: orange;
+	background: rgb(40, 103, 89);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -68,3 +72,16 @@ footer {
 	line-height: 40px;
 	width: 240px;
 }
+::-webkit-input-placeholder {
+	color: whitesmoke;
+ }
+.log{
+	position: absolute;
+	left: 3%;
+	margin: 3px;
+	max-width: 200px;
+	max-height: 200px;
+	width: auto;
+	height: auto;
+}
+
