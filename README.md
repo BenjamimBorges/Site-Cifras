@@ -9,4 +9,5 @@ organizção em pastas<br>
 adição de outros conjuntos de html<br>
 adição da creep e hit the road<br>
 ajustes na barra de busta<br>
-estilizada em laranja
+estilizada em laranja<br>
+atualições de estica e adição de JS
